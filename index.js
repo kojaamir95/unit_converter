@@ -36,6 +36,7 @@ convertBtn.addEventListener("click", function() {
                 ${userValue} pounds = ${(userValue/2.204).toFixed(3)} kilos 
             </p>
             `
+        errorMessage.innerHTML = ""
     } 
     else {
         errorMessage.innerHTML = `<p class="error-p" id="error-el">Error! Enter a valid number!</p>`
